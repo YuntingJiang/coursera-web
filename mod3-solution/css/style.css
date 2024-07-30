@@ -1,1 +1,47 @@
+.navbar{
+	margin_bottom:0;
+}
 
+/*Mobile Menu Dropdown Styles*/
+.navbar-collapse{
+	background_colr:#f8f8f8;
+}
+
+.navbar-toggle{
+    border:none;
+}
+
+.navbar-toggle .icon-bar{
+	background-color:#000;
+}
+
+.section{
+	background-color:grey;
+	height: 700px;
+	padding: 30px;
+	margin-bottom: 20px;
+	overflow: scroll;
+	display:flex;
+	flex-direction: column;
+}
+.section .p{
+	flex:1;
+}
+.nav-item .hover{
+	background-color: black;
+}
+.title{
+	font-size:20px;
+	font-weight: bold;
+}
+.custom-heading{
+	padding: 50px;
+	margin-bottom:20px;
+	margin-top: 50pxs;
+}
+#company-name{
+	font-size:60px;
+}
+.back-to-top{
+	margin-top: auto;
+}
